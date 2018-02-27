@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <script>
+    /*
+    **Directions**
+Fix this count function to return all even numbers starting from 0 up to (but not including) the input. Likewise, it the input is odd, return all odd numbers starting from 1 (but not including) the input.
+*/
+
+  function count(x) {
+    var numbers = [];
+    if (x % 2 == 0) { // TODO check that x is even
+      for (i = 0; i < x; i += 2) { // TODO assign i to 0; give i the limit of x; and increment by 2
+        numbers.push(i);
+      }
+    } else {
+      for (i = 1; i < x; i += 2) { // TODO assign i to 1; give i the limit of x; and increment by 2
+        numbers.push(i);
+      }
+    }
+    console.log(numbers);
+    return numbers;
+  }
+</script>
+</head>
+<body>
+  
+</body>
+</html>
+
+
+

@@ -1,0 +1,19 @@
+{
+  "name": "dk_files",
+  "version": "0.0.0",
+  "description": "Node file for working with Udemy Javascript + ES6 Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raydot/es6-in-depth-tutorial"
+  },
+  "author": "Dave Kanter",
+  "license": "gpl",
+  "bugs": {
+    "url": "https://github.com/raydot/es6-in-depth-tutorial/issues"
+  },
+  "homepage": "https://github.com/raydot/es6-in-depth-tutorial"
+}
