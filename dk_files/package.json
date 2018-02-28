@@ -4,7 +4,6 @@
   "description": "Node file for working with Udemy Javascript + ES6 Tutorial",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode development",
     "start": "webpack-dev-server"
   },
   "babel": {
